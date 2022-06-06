@@ -3,6 +3,22 @@
   color:white;
   display: flex;
   justify-content: center;
+  padding: 20px;
+}
+
+.top-layer {
+  height:1000px;
+  background-color:green; 
+}
+
+.middle-layer {
+  height:1000px;
+  background-color: red;
+}
+
+.bottom-layer {
+  height: 1000px;
+  background-color: yellow;
 }
 
 
@@ -12,4 +28,18 @@ header {
 
 body {
   background-color: lightgreen;
+  margin:0;
+}
+
+h1 {
+  margin-top:0;
+}
+
+.gear-img {
+  height: 500px;
+  opacity: 0.2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 200px;
 }
