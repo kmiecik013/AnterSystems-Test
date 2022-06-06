@@ -1,0 +1,15 @@
+.anter-title {
+  font-size: 100px;
+  color:white;
+  display: flex;
+  justify-content: center;
+}
+
+
+header {
+  background-color: forestgreen;
+}
+
+body {
+  background-color: lightgreen;
+}
