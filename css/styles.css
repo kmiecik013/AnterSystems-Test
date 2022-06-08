@@ -1,7 +1,14 @@
+
+
+hr {
+  border:dotted black;
+  width:5%;
+}
+
 .anter-title {
-  font-size: 100px;
+  font-size: 70px;
   color:white;
-  width:99%;
+  width:100%;
   background-color: forestgreen;
   position: fixed;
   margin:0;
@@ -14,34 +21,69 @@
 .header{
   display: flex;
   justify-content: center;
+  opacity: 1;
   
 }
 
-.top-layer {
-  height:1000px;
-  background-color:#C4E9BB; 
-}
+
 
 .middle-layer {
   height:1000px;
-  background-color: #FDDF99;
+ 
 }
 
 .bottom-layer {
   height: 1000px;
-  background-color: #D7C6F9;
 }
 
 
 body {
-  margin:0;
+  margin:0; 
+  background-color:#DBF7E8;
+  
+}
+
+.middle-title {
+ display:flex;
+ justify-content: center;
 }
 
 .gear-img {
   height: 500px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   padding-top: 200px;
+  opacity: 0.1;
+  margin:auto;
+}
 
+.footer-layer{
+  background-color: ;
+}
+
+.btn {
+  margin:auto;
+  padding-top: 100px;
+  background: #d97b34;
+  background-image: -webkit-linear-gradient(top, #d97b34, #2cb3b8);
+  background-image: -moz-linear-gradient(top, #d97b34, #2cb3b8);
+  background-image: -ms-linear-gradient(top, #d97b34, #2cb3b8);
+  background-image: -o-linear-gradient(top, #d97b34, #2cb3b8);
+  background-image: linear-gradient(to bottom, #d97b34, #2cb3b8);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #a3fc3c;
+  background-image: -webkit-linear-gradient(top, #a3fc3c, #175440);
+  background-image: -moz-linear-gradient(top, #a3fc3c, #175440);
+  background-image: -ms-linear-gradient(top, #a3fc3c, #175440);
+  background-image: -o-linear-gradient(top, #a3fc3c, #175440);
+  background-image: linear-gradient(to bottom, #a3fc3c, #175440);
+  text-decoration: none;
 }
