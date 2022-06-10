@@ -19,7 +19,7 @@ body {
 }
 
 .anter-title {
-  font-size: 70px;
+  font-size: 50px;
   padding-left: 40px;
   color:white;
   text-shadow:1px 0 0 0 black;
@@ -29,10 +29,10 @@ body {
 .header {
   display: flex;
   justify-content: space-around;
-  position: absolute;
+  position: fixed;
   margin:0;
   width: 100%;
-  background-image: linear-gradient(90deg, rgb(0, 107, 0), rgb(0, 107, 0,0) );
+  background-image: linear-gradient(90deg, rgb(0, 107, 0), rgb(201, 246, 184));
   z-index: 3;
    
 }
@@ -41,6 +41,7 @@ body {
   color:lightgreen;
   font-size: 30px;
   margin: 70px 20px 0px 0px;
+  text-decoration: none;
 }
 
 .extra-header{
@@ -51,14 +52,21 @@ body {
 
 .left-of-anter {
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
+    
+
+}
 
 
+.extra-headera:hover {
+  color:lightgreen;
 }
 
 .right-of-anter {
   display: flex;
   justify-content: space-between;
+  font-size: 30px;
+  margin: 70px 20px 0px 0px;
   color: #195A19;
 }
 
