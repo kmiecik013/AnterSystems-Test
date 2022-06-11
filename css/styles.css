@@ -1,5 +1,6 @@
 #title {
   background-color: lightblue;
+  padding-bottom: 80px;
 }
  @font-face {
    font-family: machine;
@@ -49,4 +50,50 @@ body {
 
 .wrench-image {
   width:60%;
+  transform:rotate(40deg);
+}
+
+.product-image {
+    width:400px;
+    -webkit-filter: drop-shadow(2px 2px 0 black)
+                drop-shadow(-2px 2px 0 black)
+                drop-shadow(2px -2px 0 black)
+                drop-shadow(-2px -2px 0 black);
+
+filter: drop-shadow(2px 2px 0 black)
+        drop-shadow(-2px 2px 0 black)
+        drop-shadow(2px -2px 0 black)
+        drop-shadow(-2px -2px 0 black);
+  
+}
+.product-image:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
+
+
+}
+.product-item {
+  padding:70px 0px;
+}
+
+.product-title {
+  margin:0;
+  padding:0;
+}
+
+.footer {
+  padding:0 50px;
+  background-color: blueviolet;
+}
+
+.title-products {
+  padding-bottom: 20px;
+}
+
+.wrench2 {
+  -webkit-transform: scaleX(-1);
+}
+
+.product-description {
+  padding-top: 30px;
 }
