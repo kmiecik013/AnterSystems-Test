@@ -1,20 +1,52 @@
 #title {
   background-color: lightblue;
 }
-
+ @font-face {
+   font-family: machine;
+   src: url("dafont/BrokenMachine.ttf");
+ }
 
 .first-title {
-  font-family:Comfortaa;
   font-weight: bold;
   color: azure;
   font-size:3rem;
   line-height: 1.5;
 }
 
-.container-fluid {
-  padding: 3% 15%;
-}
+
 
 .brand-name {
   color:black;
+}
+
+body {
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+
+.fa-screwdriver-wrench {
+  color:forestgreen;
+  text-shadow: 1px 0 0 0 black;
+}
+
+.navbar-brand {
+  font-family: machine;
+  font-size:30px;
+}
+
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+.navbar {
+  padding:0 0 5px 0;}
+
+.nav-item {
+  padding:0 5rem;
+  font-size: 20px;
+}
+
+.wrench-image {
+  width:60%;
 }
