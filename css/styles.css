@@ -126,5 +126,22 @@ em{
 #sell {
   text-align: center;
   height:600px;
+}
 
+.seperate-card {
+  padding:40px;
+}
+
+
+
+.sell-title {
+  padding-top: 40px;
+}
+
+.contact-title {
+  padding: 40px 0px;
+}
+#contact {
+  text-align: center;
+  padding:50px;
 }
