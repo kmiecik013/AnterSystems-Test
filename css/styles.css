@@ -1,35 +1,45 @@
-#title {
-  background-color: lightblue;
-  padding-bottom: 80px;
-}
+
  @font-face {
    font-family: machine;
    src: url("dafont/BrokenMachine.ttf");
  }
 
+body {
+  font-family: "Montserrat";
+  font-weight: bolder;
+  text-align: center;
+}
+
+em{
+  color:green;
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: lightblue;
+  padding-bottom: 80px;
+}
+
+.section-heading {
+  text-align: center;
+}
+
+.brand-name {
+  color:black;
+}
+
+
+
+.fa-screwdriver-wrench {
+  color:forestgreen;
+  text-shadow: 1px 0 0 0 black;
+}
 .first-title {
   font-weight: bold;
   color: azure;
   font-size:3rem;
   line-height: 1.5;
 }
-
-
-
-.brand-name {
-  color:black;
-}
-
-body {
-  font-family: "Montserrat";
-  font-weight: bolder;
-}
-
-.fa-screwdriver-wrench {
-  color:forestgreen;
-  text-shadow: 1px 0 0 0 black;
-}
-
 .navbar-brand {
   font-family: machine;
   font-size:50px;
@@ -49,10 +59,7 @@ body {
   font-size: 20px;
 }
 
-.wrench-image {
-  width:60%;
-  transform:rotate(40deg);
-}
+
 
 .product-image {
     width:300px;
@@ -75,11 +82,6 @@ filter: drop-shadow(2px 2px 0 black)
 }
 .product-item {
   padding:70px 0px;
-}
-
-.product-title {
-  margin:0;
-  padding:0;
 }
 
 .footer {
@@ -114,10 +116,7 @@ filter: drop-shadow(2px 2px 0 black)
   font-family: "Montserrat";
 }
 
-em{
-  color:green;
-  font-family: "Montserrat";
-}
+
 
 .carousel-item {
   padding:7% 15%;
@@ -138,9 +137,6 @@ em{
   padding-top: 40px;
 }
 
-.contact-title {
-  text-align: center;
-}
 #contact {
 
   background-color: lightblue;
@@ -149,4 +145,27 @@ em{
 
 .contact-description {
   text-align: center;
+}
+
+#features {
+  background-color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+.wrench-image {
+  width:60%;
+  transform:rotate(40deg);
+}
+
+
+@media (max-width:1000px) {
+
+  .wrench-image {
+    position:absolute;
+    opacity: 0;
+  }
+
+  #title {
+    text-align: center;
+  }
 }
