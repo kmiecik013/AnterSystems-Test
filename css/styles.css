@@ -28,6 +28,9 @@ em{
   color:black;
 }
 
+.section-heading {
+  padding-top: 40px;
+}
 
 
 .fa-screwdriver-wrench {
@@ -58,8 +61,15 @@ em{
   padding:0 5rem;
   font-size: 20px;
 }
+/*---Footer---*/
+.footer-container {
+  display: flex;
+  flex-direction:column
+}
 
-
+.social-tags {
+  padding:0 20px;
+}
 
 .product-image {
     width:300px;
@@ -156,6 +166,7 @@ filter: drop-shadow(2px 2px 0 black)
   width:60%;
   transform:rotate(40deg);
 }
+
 
 
 @media (max-width:1000px) {
